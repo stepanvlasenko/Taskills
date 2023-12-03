@@ -2,7 +2,7 @@
 
 1. Init venv and activate it
 ```bash
-py -m venv venv
+py -m venv ./venv
 .\venv\Scripts\activate
 ```
 
