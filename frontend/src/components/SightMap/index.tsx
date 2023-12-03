@@ -20,7 +20,10 @@ export default function SightMap({title, address, latitude, longitude, ...props}
             <YMapDefaultSchemeLayer />
             <YMapDefaultFeaturesLayer />
             <YMapMarker coordinates={[longitude, latitude]} >
-                <img className='map__marker' src="/images/map-baloon.svg" />
+                <section className='map-marker'>
+                    <h2 className='map-marker__text'>{title}</h2>
+                    <img className='map-marker__image' src="/images/map-baloon.svg" />
+                </section>
             </YMapMarker>
         </YMap>
     )

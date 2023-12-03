@@ -1,3 +1,14 @@
-.map__marker {
+.map-marker__image {
     width: 32px;
+}
+
+.map-marker__text {
+
+}
+
+.map-marker {
+    position: relative;
+    box-sizing: border-box;
+    transform: translate(-50%, calc(-50% - 24px));
+    cursor: pointer;
 }
