@@ -1,0 +1,76 @@
+.sight-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #878787;
+    background-color: #FDF6EF;
+}
+
+.sight-card__image {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 0.85;
+}
+
+.sight-card__inforamation {
+    display: flex;
+    padding: 24px 16px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.sight-card__title {
+    color: #100D09;
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.sight-card__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.sight-card__description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #878787;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.sight-card__link {
+    display: flex;
+    padding: 0px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #100D09;
+}
+
+.sight-card__link-vertical-line {
+    height: 100%;
+    width: 1px;
+    background: #100D09;
+}
+
+.sight-card__link-text {
+    color: #878787;
+    padding: 16px 0;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.sight-card__link-image {
+    width: 16px;
+    aspect-ratio: 1;
+}
