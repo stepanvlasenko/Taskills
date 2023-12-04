@@ -16,12 +16,15 @@ interface SightMapProps {
 export default function SightMap({title, address, latitude, longitude, ...props}: SightMapProps) {
     console.log(ymaps3)
     return (
-        <YMap location={{center: [longitude, latitude], zoom: 16}} mode="vector">
+        <YMap {...props} location={{center: [longitude, latitude], zoom: 16}} mode="vector">
             <YMapDefaultSchemeLayer />
             <YMapDefaultFeaturesLayer />
             <YMapMarker coordinates={[longitude, latitude]} >
                 <section className='map-marker'>
-                    <h2 className='map-marker__text'>{title}</h2>
+                    <div className='map-marker__description'>
+                        <p className='map-marker__text text--roboto-700'>{title}</p>
+                        <p className='map-marker__text text--roboto-700'>Адрес: {address}</p>
+                    </div>
                     <img className='map-marker__image' src="/images/map-baloon.svg" />
                 </section>
             </YMapMarker>

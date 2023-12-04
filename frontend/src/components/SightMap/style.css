@@ -1,14 +1,32 @@
-.map-marker__image {
-    width: 32px;
-}
-
-.map-marker__text {
-
-}
-
 .map-marker {
     position: relative;
     box-sizing: border-box;
     transform: translate(-50%, calc(-50% - 24px));
     cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-marker__description {
+    position: absolute;
+    top: calc(32px + 8px);
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.map-marker__image {
+    width: 32px;
+}
+
+.map-marker__text {
+    white-space: nowrap;
 }
