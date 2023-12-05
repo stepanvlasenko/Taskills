@@ -26,7 +26,8 @@
     "paths": {
       "ymaps3": [
         "./node_modules/@yandex/ymaps3-types"
-      ]
+      ],
+      "@types": ["./frontend/src/assets/ts/types.ts"],
     }
   },
   "include": ["frontend/src"],

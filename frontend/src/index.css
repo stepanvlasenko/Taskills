@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.text--red {
+    color: #ED7575
+}
+
 .text--ibm-200 {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 200;
@@ -17,11 +32,6 @@
 .text--ibm-300 {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
-}
-
-.text--ibm-400 {
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 400;
 }
 
 .text--roboto-700 {

@@ -14,8 +14,10 @@
   "dependencies": {
     "@yandex/ymaps3-types": "^0.0.19",
     "concurrently": "^8.2.2",
+    "ofetch": "^1.3.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
