@@ -17,15 +17,6 @@ sights = [
         'keywords': ['Природное'],
     },
     {
-        'title': 'Гора Улаган',
-        'description': 'Гора невысокая, всего на 68 метров возвышается над уровнем моря и на 84 метра над уровнем озера Эльтон. Интересна тем, что можно найти камешки с окаменевшими моллюсками мезозойской эры. С горы открывается хороший вид на озеро, особенно хорош закат. В советские времена на горе Улаган была добыча щебёнки, следы этих разработок видны и сейчас.',
-        'images': ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/da/c2/6f/caption.jpg', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/da/c2/42/caption.jpg?', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e6/e7/5a/photo3jpg.jpg', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a0/ee/5f/caption.jpg'],
-        'address': 'Волгоградская область, Палласовский район, Эльтонское сельское поселение',
-        'latitude': 49.058425,
-        'longitude': 46.738596,
-        'keywords': ['Природное'],
-    },
-    {
         'title': 'Волго-Ахтубинская пойма',
         'description': 'Волго-Ахтубинская пойма — это многочисленные водоемы, каждый из которых уникален своими растениями и животным миром. Парк по праву считается одним из крупнейших природных оазисов региона и издавна привлекает ценителей рыбалки, водного и активного туризма. Вдоль реки Ахтубы расположен целый ряд археологических памятников. Именно здесь проходил Великий шелковый путь, вокруг которого возникали первые исторические поселения.',
         'images': ['https://upload.wikimedia.org/wikipedia/commons/1/1f/Erik_Kashirin._Volga-Akhtuba_floodplain.JPG','https://takiedela.ru/wp-content/uploads/2021/09/TASS_603609-1.jpg', 'https://rossaprimavera.ru/static/files/863b01e2ba7e.jpg', 'https://aif-s3.aif.ru/images/026/042/8522a06844ea86285fac0b9ca997f402.jpg'],
@@ -141,6 +132,15 @@ sights = [
         'latitude': 48.527661,
         'longitude': 44.558946,
         'keywords': ['Искусственное'],
+    },
+    {
+        'title': 'Гора Улаган',
+        'description': 'Гора невысокая, всего на 68 метров возвышается над уровнем моря и на 84 метра над уровнем озера Эльтон. Интересна тем, что можно найти камешки с окаменевшими моллюсками мезозойской эры. С горы открывается хороший вид на озеро, особенно хорош закат. В советские времена на горе Улаган была добыча щебёнки, следы этих разработок видны и сейчас.',
+        'images': ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/da/c2/6f/caption.jpg', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/da/c2/42/caption.jpg?', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e6/e7/5a/photo3jpg.jpg', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a0/ee/5f/caption.jpg'],
+        'address': 'Волгоградская область, Палласовский район, Эльтонское сельское поселение',
+        'latitude': 49.058425,
+        'longitude': 46.738596,
+        'keywords': ['Природное'],
     },
     {
         'title': 'Россошка',
