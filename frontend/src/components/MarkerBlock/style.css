@@ -1,0 +1,43 @@
+.map-marker {
+    position: relative;
+    box-sizing: border-box;
+    transform: translate(-50%, calc(-50% - 24px));
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.map-marker__image {
+    width: 48px;
+}
+
+.map-marker__description {
+    width: 300px;
+    border-radius: 24px;
+    border: 1px solid #878787;
+    background: #FDF6EF;
+
+    padding: 16px;
+    position: absolute;
+    top: calc(48px + 8px);
+    box-sizing: border-box;
+
+    cursor: default;
+}
+
+.map-marker__title {
+    color: #100D09;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.map-marker__address {
+    margin-top: 16px;
+    color: #878787;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 175%; /* 28px */
+    text-decoration-line: underline;
+}

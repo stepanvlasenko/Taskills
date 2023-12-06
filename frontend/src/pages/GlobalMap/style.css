@@ -1,0 +1,25 @@
+.global-map__information {
+    padding: 40px 32px;
+}
+
+.global-map__title {
+    color: #100D09;
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.global-map__text {
+    margin-top: 24px;
+    color: #100D09;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.global-map__map {
+    border-top: 1px solid #878787;
+    border-bottom: 1px solid #878787;
+    height: 728px;
+}
+
