@@ -7,8 +7,7 @@ export default function Footer(){
             <div className='footer__about'>
                 <p className='footer__heading text--ibm-300'>О проекте</p>
                 <div className='footer__text text--roboto-400'>
-                    {/* Вставить инфу о проекте */}
-                    Lorem ipsum dolor sit amet consectetur. Arcu sed massa vel porta in ut a porta. Ultrices adipiscing eget tincidunt amet tincidunt. Nunc turpis sagittis molestie nunc ac in. Convallis donec tellus hendrerit dui praesent proin arcu porttitor velit. A sed porttitor elementum interdum venenatis tristique. Euismod consequat nibh eget odio. Etiam pellentesque tortor vestibulum at et at lectus. Habitasse faucibus diam vel et ipsum nisi tellus bibendum. Senectus auctor adipiscing orci gravida. Netus posuere maecenas sed purus. Non ac neque blandit sed in. Commodo ultricies malesuada tempus purus suspendisse sed leo. Sit feugiat fermentum in nibh malesuada viverra.
+                    Приложение поможет вам узнать о туристических местах Волгоградской области и составить свой маршрут для путешествия. Для этого вы можете воспользоваться списком всех достопримечательностей и интерактивной картой туристических мест. На странице каждой достопримечательности присутствуют описание и фотографии для ознакомления, а также адрес и расположение на карте.
                 </div>
             </div>
             <div className='footer__vertical-line'></div>

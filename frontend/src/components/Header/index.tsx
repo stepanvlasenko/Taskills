@@ -5,9 +5,8 @@ export default function Header(){
     return(
         <header className='header'>
             <div className="header__left">
-                <Link to={'/'} className='header__link'>
-                    Места
-                </Link>
+                <Link to={'/'} className='header__link'>Места</Link>
+                <Link to={'/global-map'} className='header__link'>Интерактивная карта</Link>
             </div>
             <div className="header__center">
                 <img src="/images/logo.svg" alt="" className='header__logo'/>
