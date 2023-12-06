@@ -8,6 +8,7 @@ import './index.css'
 import App from './App.tsx'
 import Main from './pages/Main/index.tsx';
 import Sight from './pages/Sight/index.tsx';
+import GlobalMap from './pages/GlobalMap/index.tsx';
 
 const router = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
             {
                 path: 'about',
                 element: <></>
+            },
+            {
+                path: 'global-map',
+                element: <GlobalMap />
             },
             {
                 path: 'sight/:id',
