@@ -1,0 +1,67 @@
+.sight {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid #878787;;
+}
+
+.sight__container {
+    border-right: 1px solid #878787;;
+
+}
+
+.sight__main-image {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 2;
+}
+
+.sight__information {
+    padding: 32px;
+}
+
+.sight__title {
+    color: #100D09;
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.sight__description {
+    color: #878787;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 175%; /* 28px */
+}
+
+.sight__subtitle {
+    padding-top: 16px;
+    color: #100D09;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 175%; /* 42px */
+}
+
+.sight__address {
+    color: #878787;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 175%; /* 28px */
+    text-decoration: underline;
+}
+
+.sight-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #878787;;
+}
+
+.sight-images > * {
+    max-width: 25%;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 0.85;
+}
