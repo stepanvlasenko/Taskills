@@ -14,9 +14,8 @@ interface SightMapProps {
 }
 
 export default function SightMap({title, address, latitude, longitude, ...props}: SightMapProps) {
-    console.log(ymaps3)
     return (
-        <YMap {...props} location={{center: [longitude, latitude], zoom: 16}} mode="vector">
+        <YMap {...props} location={{center: [longitude, latitude], zoom: 12}} mode="vector">
             <YMapDefaultSchemeLayer />
             <YMapDefaultFeaturesLayer />
             <YMapMarker coordinates={[longitude, latitude]} >
