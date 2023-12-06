@@ -1,0 +1,44 @@
+.header > * {
+    padding: 8px 32px;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    border: 1px solid #100D09;
+    align-items: stretch;
+    position: sticky;
+    top: 0;
+    background: #FDF6EF
+}
+
+.header__left {
+    border-right: 1px solid #100D09;
+}
+
+.header__center {
+    flex: 1 0 0;
+    justify-content: center;
+}
+
+.header__right {
+    border-left: 1px solid #100D09;
+}
+
+.header__link {
+    color: #878787;
+    font-family: IBM Plex Mono;
+    font-size: 32px;
+    font-style: normal;
+}
+
+.header__link--active,.header__link:hover {
+    color: #C45EDE;
+}
+
+.header__logo {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
