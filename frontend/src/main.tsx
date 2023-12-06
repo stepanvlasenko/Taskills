@@ -19,6 +19,10 @@ const router = createBrowserRouter([
                 element: <Main />
             },
             {
+                path: 'about',
+                element: <></>
+            },
+            {
                 path: 'sight/:id',
                 loader: ({params}) => {
                     if (!params.id) return null
