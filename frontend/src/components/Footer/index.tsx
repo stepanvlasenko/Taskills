@@ -14,9 +14,8 @@ export default function Footer(){
             <div className='footer__developers'>
                 <p className='footer__heading text--ibm-300'>Разработчики</p>
                 <ul className='footer__list'>
-                   <li className='footer__text text--roboto-400'>Власенко Степан </li> 
-                   <li className='footer__text text--roboto-400'>Доманов Фёдор </li>
-                   <li className='footer__text text--roboto-400'>Ткаченко Егор</li>
+                   <li className='footer__text text--roboto-400'>Власенко Степан</li> 
+                   <li className='footer__text text--roboto-400'>Доманов Фёдор</li>
                 </ul>
             </div>
         </div>

@@ -30,8 +30,8 @@ sights = [
         'description': 'Белоснежные известняковые горы – настоящее сокровище Волгоградской области. Яркие вершины можно увидеть в разных уголках региона, самые примечательные находятся на берегу реки Медведица. Возвышенности сложились миллионы лет назад из останков рыб и других морских обитателей, на белых склонах можно найти целые окаменевшие ракушки. Синее небо, белые склоны, темная зелень лесов и сверкающая у подножия река складываются в восхитительный пейзаж.',
         'images': ['https://cs10.pikabu.ru/post_img/big/2018/05/02/4/152523606011595927.jpg', 'https://worldroads.ru/wp-content/uploads/2022/06/storozevoe-b.jpg', 'https://upload.wikimedia.org/wikipedia/commons/f/f3/The_rocky_outcrop_of_the_Upper_Cretaceous.JPG', 'https://greenexp.ru/uploads/places/372901/e8d9f35074f999c559cd680b88bb350e.jpg', 'https://xn--80aiclbbsnghpgw1b5g.xn--p1ai/Images/Resize/207862c0-f66a-4f39-8618-fdc008189659.jpg'],
         'address': 'Волгоградская область, Калачёвский район, Голубинское сельское поселение, Меловые останцы',
-        'latitude': 43.95745,
-        'longitude': 49.298983,
+        'latitude': 48.835526,
+        'longitude': 43.501367,
         'keywords': ['Природное'],
     },
     {
@@ -154,7 +154,7 @@ sights = [
     {
         'title': 'Усть-Медведицкий Спасо-Преображенский монастырь',
         'description': 'Православный монастырь Урюпинской епархии Русской православной церкви, расположенный неподалёку от города Серафимович Волгоградской области.',
-        'images': ['https://upload.wikimedia.org/wikipedia/commons/a/a6/%D0%90%D1%80%D0%BA%D0%B0_%D0%B7%D0%B2%D0%BE%D0%BD%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0_%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8_%D0%A3%D1%81%D1%82%D1%8C-%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D0%B8%D1%86%D0%BA%D0%BE%D0%B3%D0%BE_%D0%A1%D0%BF%D0%B0%D1%81%D0%BE-%D0%9F%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8F.jpg', 'https://radiovera.ru/wp-content/uploads/2016/02/Ust-Medveditskiy-Spaso-Preobrazhenskiy-monastyir.jpg', 'https://culttourism.ru/data/photos/f/4/f4cea7c89d30cc41590a34997c29cfac.jpg', 'https://riac34.ru/upload/iblock/96e/KAI_0215.jpg'],
+        'images': ['https://radiovera.ru/wp-content/uploads/2016/02/Ust-Medveditskiy-Spaso-Preobrazhenskiy-monastyir.jpg', 'https://culttourism.ru/data/photos/f/4/f4cea7c89d30cc41590a34997c29cfac.jpg', 'https://riac34.ru/upload/iblock/96e/KAI_0215.jpg', 'https://upload.wikimedia.org/wikipedia/commons/a/a6/%D0%90%D1%80%D0%BA%D0%B0_%D0%B7%D0%B2%D0%BE%D0%BD%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0_%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8_%D0%A3%D1%81%D1%82%D1%8C-%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D0%B8%D1%86%D0%BA%D0%BE%D0%B3%D0%BE_%D0%A1%D0%BF%D0%B0%D1%81%D0%BE-%D0%9F%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8F.jpg'],
         'address': 'Преображенская ул., 7, Серафимович, Волгоградская обл.',
         'latitude': 49.566305,
         'longitude': 42.695837,
