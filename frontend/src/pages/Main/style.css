@@ -1,5 +1,5 @@
 .main__promo {
-    border: 1px solid #100D09;
+    border-bottom: 1px solid #100D09;
     background: url('/images/background.png') repeat;
     padding: 112px 32px;
 }
@@ -48,4 +48,30 @@
     border-radius: 16px;
     object-fit: cover;
     aspect-ratio: 406 / 141;
+}
+
+.main__sights {
+    padding: 32px 0px 0px 0px;
+    border-bottom: 1px solid #100D09;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.main-sights__title {
+    padding: 0px 32px;
+    color: #100D09;
+    font-size: 64px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.sights {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sights > * {
+    max-width: 50%;
 }
