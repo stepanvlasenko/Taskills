@@ -31,11 +31,13 @@ export default function GlobalMap() {
                 <h2 className='global-map__title text--ibm-300'>Интерактивная карта</h2>
                 <p className='global-map__text text--ibm-300'>Интерактивная карта со всеми достопримечательностями Волгоградской области. Нажмите на маркер, чтобы увидеть информацию.</p>
             </div>
-            <YMap className='global-map__map' location={{center: [44.516975, 48.707067], zoom: 8}} mode="vector">
-                <YMapDefaultSchemeLayer />
-                <YMapDefaultFeaturesLayer />
-                {sights.map(v => <MarkerBlock key={v.id} title={v.title} address={v.address} latitude={v.latitude} longitude={v.longitude} isDefaultActive={false}/>)}
-            </YMap>
+            <div className='global-map__map>
+                <YMap location={{center: [44.516975, 48.707067], zoom: 8}} mode="vector">
+                    <YMapDefaultSchemeLayer />
+                    <YMapDefaultFeaturesLayer />
+                    {sights.map(v => <MarkerBlock key={v.id} title={v.title} address={v.address} latitude={v.latitude} longitude={v.longitude} isDefaultActive={false}/>)}
+                </YMap>
+            </div>
         </div>
 
     )
